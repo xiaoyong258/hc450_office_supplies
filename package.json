@@ -15,11 +15,16 @@
     "@sap/cds-dk": "^7"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds run"
   },
   "cds": {
+    "hana":{
+      "deploy-format": "hdbtable"
+    },
     "requires": {
-      "db": "hana"
+      "db": {
+        "kind": "hana"
+      }
     }
   }
 }
