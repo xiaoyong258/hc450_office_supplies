@@ -1,0 +1,13 @@
+locale,name,descr,code
+de,Euro,European Euro,EUR
+de,US-Dollar,United States Dollar,USD
+de,Kanadischer Dollar,Kanadischer Dollar,CAD
+de,Australischer Dollar,Australischer Dollar,AUD
+de,Pfund,Britische Pfund,GBP
+de,Schekel,Israelische Schekel,ILS
+fr,euro,de la Zone euro,EUR
+fr,dollar,dollar des États-Unis,USD
+fr,dollar canadien,dollar canadien,CAD
+fr,dollar australien,dollar australien,AUD
+fr,livre sterling,pound sterling,GBP
+fr,Shekel,shekel israelien,ILS
