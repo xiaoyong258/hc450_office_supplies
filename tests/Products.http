@@ -1,0 +1,15 @@
+### Submit Suppliers
+GET http://localhost:4004/catalog/Suppliers?$top=2
+
+### Browse Products
+GET http://localhost:4004/catalog/Products?$top=2
+
+### Browse Products - Product,Identifier ,Price
+GET http://localhost:4004/catalog/Products?&$select=identifier,price
+
+### Submit Products
+POST http://localhost:4004/catalog/Products
+Content-Type: application/json
+
+{"ID":"a9fe4b01-ccd3-4369-821c-291a7552dffb" 
+}
